@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: pink;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  margin-top: 5vh;
+}
+h4 {
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.article {
+  display: flex;
+  margin-top: 2vh;
+  width: 250px;
+  padding: 10px;
+  margin: auto;
+}
+.image {
+  width: 50px;
+
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+
+  margin: 10px;
+  padding: 10px;
+}
