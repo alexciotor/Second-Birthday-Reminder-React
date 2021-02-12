@@ -22,6 +22,7 @@ h4 {
   padding-top: 20px;
 }
 .article {
+  justify-content: space-around;
   display: flex;
   margin-top: 2vh;
   width: 250px;
@@ -52,6 +53,12 @@ p {
   margin: 1.3rem;
   font-size: 0.8rem;
   letter-spacing: 3px;
+}
+.btns {
+  background-color: transparent;
+  border: none;
+  color: $pink;
+  letter-spacing: 2px;
 }
 @media only screen and (min-width: 761px) and (max-width: 1560px) {
   .main-container {
