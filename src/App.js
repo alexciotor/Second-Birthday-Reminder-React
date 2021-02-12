@@ -21,7 +21,12 @@ setPeople(people.filter(item=>item.id !==id))
   return (
     <div className='main-container'  >
   <h4>{people.length} Birthdays today</h4>
-<List attendedPpl={attendedPpl} people={people}/>
+  <div className="list">
+  {people.map(item=>{
+    return <List attendedPpl={attendedPpl} item={item}/>
+  })}
+
+</div>
 <button onClick={()=>{
       setPeople([])
   }} className="btn">Clear all</button>
