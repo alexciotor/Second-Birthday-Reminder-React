@@ -56,12 +56,29 @@ p {
   letter-spacing: 3px;
   text-transform: capitalize;
 }
+.header {
+  width: 90%;
+}
+.buttons {
+  margin-top: 1vh;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+}
 .btns {
+  margin-right: 1vh;
   background-color: transparent;
   border: none;
   color: $pink;
   letter-spacing: 2px;
+  cursor: pointer;
 }
+.span-attend {
+  color: green;
+  font-size: 20px;
+}
+
 @media only screen and (min-width: 761px) and (max-width: 1560px) {
   .main-container {
     width: 50%;
